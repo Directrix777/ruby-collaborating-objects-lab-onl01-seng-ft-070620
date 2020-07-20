@@ -9,7 +9,7 @@ class MP3Importer
   end
 
   def files
-    filenames = Dir[@path.mp3]
+    filenames = Dir[@path + ".mp3"]
   end
 
 end
