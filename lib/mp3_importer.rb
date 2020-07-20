@@ -10,7 +10,6 @@ class MP3Importer
 
   def files
     filenames = Dir[@path]
-    binding.pry
   end
 
 end
