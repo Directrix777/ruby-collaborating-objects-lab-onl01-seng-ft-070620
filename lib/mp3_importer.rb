@@ -1,4 +1,4 @@
-
+require "pry"
 
 class MP3Importer
 
@@ -10,6 +10,7 @@ class MP3Importer
 
   def files
     filenames = Dir[@path]
+    binding.pry
   end
 
 end
