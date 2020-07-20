@@ -10,6 +10,7 @@ class MP3Importer
 
   def files
     filenames = Dir.entries(@path)
+    filenames.select{|filename| filename if filename.end_with?(".mp3")}
   end
 
 end
